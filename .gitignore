@@ -8,7 +8,6 @@ build/
 .eggs/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -17,6 +16,7 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+temp_auto_push.bat
 
 # Python
 .mypy_cache/
@@ -36,3 +36,5 @@ docker/data/
 # Local config
 .kiro/
 observal-web/tsconfig.tsbuildinfo
+.gitignore
+branch_structure.json
