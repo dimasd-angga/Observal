@@ -8,7 +8,6 @@ build/
 .eggs/
 
 # IDE / editor
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -27,6 +26,7 @@ GEMINI.md
 .github/copilot-instructions.md
 .copilot/
 .worktrees/
+temp_auto_push.bat
 
 # OS
 .DS_Store
@@ -55,3 +55,5 @@ e2e-screenshots/
 # Private packages (symlinked for local Docker builds)
 observal-insights/
 .observal/
+.gitignore
+branch_structure.json
